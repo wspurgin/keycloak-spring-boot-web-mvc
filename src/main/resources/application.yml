@@ -1,0 +1,9 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+keycloak:
+  realm: demo
+  resource: example-cli
+  public-client: true
+  auth-server-url: http://localhost:9080/auth
+  principal-attribute: preferred_username
